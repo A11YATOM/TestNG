@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Toolbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="toolbar" role="toolbar" aria-label="Formatting Toolbar">
+        <button class="toolbar-button" aria-label="Bold" aria-pressed="false" tabindex="0"><strong>B</strong></button>
+        <button class="toolbar-button" aria-label="Italic" aria-pressed="false" tabindex="0"><em>I</em></button>
+        <button class="toolbar-button" aria-label="Underline" aria-pressed="false" tabindex="0"><u>U</u></button>
+        <button class="toolbar-button" aria-label="Font Size" tabindex="0">A</button>
+        <button class="toolbar-button" aria-label="Text Color" tabindex="0">T</button>
+        <button class="toolbar-button" aria-label="Disabled Button" disabled>Disabled</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

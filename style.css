@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.toolbar {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.toolbar-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.toolbar-button:focus {
+    outline: 2px solid #007BFF;
+    background-color: #e0e0e0;
+}
+
+.toolbar-button:hover {
+    background-color: #d0d0d0;
+}
