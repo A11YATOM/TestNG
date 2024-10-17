@@ -27,3 +27,7 @@ body {
 .toolbar-button:hover {
     background-color: #d0d0d0;
 }
+.toolbar-button[aria-pressed="true"] {
+    background-color: #007BFF; /* Active background color */
+    color: white; /* Active text color */
+}
